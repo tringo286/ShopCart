@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
+import Container from "@/components/Container";
 
 export default function Home() {
   return (
-    <div className="bg-shop_light_pink">
+    <Container className="">
       <h2 className="text-2xl">Home</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
@@ -13,6 +14,6 @@ export default function Home() {
         doloremque commodi eveniet consectetur exercitationem distinctio?
       </p>
       <Button>Click me</Button>
-    </div>
+    </Container>
   );
 }
