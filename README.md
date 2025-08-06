@@ -1,30 +1,28 @@
-next js 15
-tailwind 4.0
-ui.shadcn
+# 🛒 Shopcart Ecommerce App
 
-cn from shadcn.ui
+Shopcart is a modern, full-featured ecommerce web application built with **Next.js** and powered by **Stripe**, **Auth.js**, and **Zustand** for a seamless shopping and checkout experience. With real-time updates, OAuth authentication, dynamic product filtering, and a sleek, responsive design, Shopcart provides users with a fast and intuitive way to shop online.
 
-@theme in global.css
+---
 
-whenever you use react hook in severside components, you need to use "use client' to make it a client component
+## 🚀 Features
 
-TooltipProvider,
-Tooltip,
-TooltipTrigger
-TooltipContent in shadcn ui
+- 💳 **Stripe Payment Integration**  
+  Secure and reliable checkout with full Stripe integration, supporting credit/debit cards and coupons.
 
-clerk
+- 🔔 **Real-time Order Updates**  
+  Stripe webhooks provide real-time feedback on payment and order status.
 
-sanity cms
+- 🔐 **OAuth Login**  
+  Login with Google, GitHub, and other providers using Auth.js for a smooth and secure experience.
 
-npx sanity@latest dataset import seed.tar.gz: import all data to the studio
+- 🖥️ **Responsive Design**  
+  Built with Tailwind CSS, Shopcart looks great on all devices — mobile, tablet, and desktop.
 
-http://localhost:3000/studio/vision \*[_type == "product"]{
-name
-} // fetch data in studio vision
+- 🔍 **Dynamic Product Filtering & Search**  
+  Users can filter by category, price range, or search by keyword with live results.
 
-motion.dev
+- 🎟️ **Discount & Coupon System**  
+  Apply promo codes and discounts at checkout.
 
-"typegen": "npx sanity@latest schema extract && npx sanity@latest typegen generate"
-sanity.types.ts
-schema.json
+- ⚡ **Optimized Performance**  
+  Leveraging Next.js features like SSR (Server-Side Rendering) and SSG (Static Site Generation) for lightning-fast performance and SEO benefits.
